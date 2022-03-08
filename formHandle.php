@@ -4,7 +4,7 @@
 $host = "us-cdbr-east-05.cleardb.net";
 $user = "be4c22fe1bd451";
 $pass = "0128e3d6";
-$db = "heroku_f4c1f1b843cd581"
+$db = "heroku_f4c1f1b843cd581";
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
