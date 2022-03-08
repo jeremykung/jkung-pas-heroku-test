@@ -1,4 +1,6 @@
 <?php
+    var_dump($_POST);
+    
     isset($_POST['submit']) {
 
         // Connect to DB
@@ -28,7 +30,7 @@
 
 <h1>Heroku Deploy Test</h1>
 
-<form action="" method="post">
+<form action="index.php" method="post">
     <input type="text" name="username" placeholder="username">
     <label for="age">Age</label>
     <input type="number" name="age">
