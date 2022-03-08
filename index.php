@@ -16,13 +16,13 @@
             echo "Connection failed: " . $e->getMessage();
         }
 
-        // Write to DB
-        $username = $_POST['username'];
-        $age = $_POST['age'];
+        // // Write to DB
+        // $username = $_POST['username'];
+        // $age = $_POST['age'];
 
-        $sql = "INSERT INTO `user` (username, age) VALUES ('$username', '$age')";
-        $conn->exec($sql);
-        echo "successfully inserted row";
+        // $sql = "INSERT INTO `user` (username, age) VALUES ('$username', '$age')";
+        // $conn->exec($sql);
+        // echo "successfully inserted row";
 
     }
 ?>
