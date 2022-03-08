@@ -28,7 +28,7 @@
 
 <h1>Heroku Deploy Test</h1>
 
-<form action="formHandle.php" method="post">
+<form action="" method="post">
     <input type="text" name="username" placeholder="username">
     <label for="age">Age</label>
     <input type="number" name="age">
