@@ -31,9 +31,9 @@
 
 <form action="" method="post">
     <input type="text" name="username" placeholder="username">
-    <label for="age">Age</label>
-    <input type="number" name="age">
-    <input type="submit" value="Ok" name="submit">
+    <!-- <label for="age">Age</label> -->
+    <!-- <input type="number" name="age"> -->
+    <input type="submit" value="Add User" name="submit">
 </form>
 
 <h1>Users</h1>
@@ -47,8 +47,8 @@
         $username = $row["username"];
         $age = $row["age"];
     
-        echo "<h2>$name</h2>";
-        echo "<div>$age</div>";
+        echo "<h2>$username</h2>";
+        // echo "<div>$age</div>";
     }
 
 ?>
